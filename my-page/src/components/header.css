@@ -1,0 +1,23 @@
+ .header-section{
+    background-color: #393646;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+ }
+.header-content{
+    display: flex;
+    margin-left: 20px;
+    gap: 50px;
+    margin-left: 900px;
+   
+}
+.inputs{
+    font-size: 25px;
+    color: #F4EEE0;
+    cursor: pointer;
+
+}
+.inputs:hover{
+    font-weight:bolder;
+   
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import "./header.css";
 
 function Header(){
     return(
@@ -9,6 +10,7 @@ function Header(){
                 <p className="inputs">Experiences</p>
                 <p className="inputs">Projects</p>
                 <p className="inputs">Intresting Things</p>
+                
             </div>
         </div>
         </>
