@@ -128,3 +128,44 @@
     box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
   }
   
+  @media only screen and (max-width: 767px) {
+    .homepage {
+      background-color: #393646;
+      height: auto;
+      align-content: flex-start;
+      padding: 20px;
+    }
+  
+    .text {
+      margin-left: 0;
+      font-size: 20px;
+    }
+  
+    .sub-text {
+      margin-top: 10px;
+      margin-left: 0;
+    }
+  
+    .main-text {
+      font-size: 80px;
+      margin: 0;
+      text-align: center;
+    }
+  
+    .p-image {
+      width: 100%;
+      margin-right: 0;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+    .description-text {
+      font-size: 30px;
+    }
+  
+    .about {
+      font-size: 20px;
+      margin-right: 0;
+      text-align: center;
+    }
+  }

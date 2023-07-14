@@ -18,8 +18,8 @@ function Homepage() {
                         on this whimsical journey as we navigate the digital wilderness
                         together.
                     </p>
-                    <button class="button-17" role="button"><a href="mailto:your-email@example.com">Email Me</a>
-</button>
+                    <button className="button-17" role="button"><a href="mailto:your-email@example.com">Email Me</a>
+                    </button>
                 </div>
                 <div className="image"> <img className="p-image animate" src={image} alt="profile-image" /></div>
 
