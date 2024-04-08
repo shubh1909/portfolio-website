@@ -10,7 +10,7 @@ const Home = () => {
         <div className="home-item">
           <h1>Shubh Jain</h1>
           <h2>
-            <i>MERN developer | Flutter developer </i>{" "}
+            <i>MERN developer | App developer </i>{" "}
           </h2>
           <h2>
             <i>Video editor | Wildlife activist </i>{" "}

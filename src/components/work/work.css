@@ -5,6 +5,7 @@
 
 .heading {
   text-align: center;
+  font-size: 2rem;
 }
 .projects {
   display: flex;
