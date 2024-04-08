@@ -1,0 +1,25 @@
+.home-section {
+  padding: 3rem 1rem;
+  background-color: #272829;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 30rem;
+}
+.profile-img {
+  aspect-ratio: 1 / 1;
+  width: 25rem;
+  animation: fadeIn 8s;
+}
+.home-item {
+  animation: fadeIn 8s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
