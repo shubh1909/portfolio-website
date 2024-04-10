@@ -5,7 +5,12 @@ import tindog from "../../assets/tindog.png";
 const Work = () => {
   return (
     <>
-      <div className="work-section" data-aos="fade-up" data-aos-duration="1500">
+      <div
+        className="work-section"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        id="work"
+      >
         <h2 className="heading"> My work</h2>
         <div className="projects">
           <Card

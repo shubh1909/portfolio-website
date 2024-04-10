@@ -19,6 +19,7 @@ const Connect = () => {
     <>
       <div
         className="connect-section"
+        id="connect"
         data-aos="fade-up"
         data-aos-duration="1000"
       >

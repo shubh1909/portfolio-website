@@ -5,7 +5,7 @@ import About from "./about/about";
 const Home = () => {
   return (
     <>
-      <div className="home-section">
+      <div className="home-section" id="home">
         <img className="profile-img" src={profileImage} alt="dp" />
         <div className="home-item">
           <h1>Shubh Jain</h1>

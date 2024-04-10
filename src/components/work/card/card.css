@@ -1,10 +1,18 @@
 .card-section {
   background-color: #61677a;
-  width: 22rem;
+  width: 21.5rem;
   border-radius: 25px;
   color: #fff6e0;
   font-size: 0.75rem;
+  border: 5px solid transparent; /* Add a transparent border */
+  transition: border-color 0.3s; /* Add transition for smooth effect */
 }
+
+.card-section:hover {
+  border-color: #646cff; /* Change border color on hover */
+  cursor: pointer;
+}
+
 img {
   object-fit: contain;
   width: 100%;
