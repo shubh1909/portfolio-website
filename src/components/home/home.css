@@ -1,15 +1,22 @@
 .home-section {
-  padding: 3rem 1rem;
+  padding: 3.5rem 1rem;
   background-color: #272829;
   display: flex;
   align-items: center;
   justify-content: space-around;
   height: 30rem;
 }
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
 .profile-img {
   aspect-ratio: 1 / 1;
   width: 25rem;
   animation: fadeIn 8s;
+  object-fit: contain;
 }
 .home-item {
   animation: fadeIn 8s;
@@ -21,5 +28,15 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .home-section {
+    flex-direction: column;
+    height: auto;
+  }
+  .profile-img {
+    width: 35rem;
   }
 }

@@ -14,7 +14,6 @@
 }
 
 img {
-  object-fit: contain;
   width: 100%;
   height: 150%;
   border-top-left-radius: 25px;
@@ -30,4 +29,10 @@ img {
   color: #fff6e0; /* Change 'blue' to the desired color */
   margin-right: 10rem;
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-section{
+    width: 27rem;
+  }
 }

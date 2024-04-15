@@ -61,3 +61,10 @@
       -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
   }
 }
+
+@media only screen and (max-width: 768px){
+  .header-section{
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
+}

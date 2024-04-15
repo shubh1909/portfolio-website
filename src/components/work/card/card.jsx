@@ -19,7 +19,7 @@ const Card = ({ image, title, description, link, githubLink }) => {
               rel="noreferrer"
               className="project-link"
             >
-              {link}
+              GO to project
             </a>
           </p>
           <p>
@@ -30,7 +30,7 @@ const Card = ({ image, title, description, link, githubLink }) => {
               rel="noreferrer"
               className="project-link"
             >
-              {githubLink}
+              Open repositiry
             </a>
           </p>
         </div>

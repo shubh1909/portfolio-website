@@ -9,5 +9,23 @@
 }
 .projects {
   display: flex;
-  gap: 10.5px;
+  
+   
+  align-content: center;
+  justify-content: space-around;
+
+}
+
+@media only screen and (max-width: 768px) {
+  .projects {
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+
+  .card-section {
+    margin: 1rem;
+  }
+  
 }
